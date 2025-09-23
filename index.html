@@ -1,0 +1,313 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;500;700&display=swap">
+
+  <title>Portfolio</title>
+</head>
+<body class="font-[Roboto] bg-white pt-20">
+
+  <!-- Navbar -->
+<nav class="fixed top-0 left-0 z-50 flex items-center justify-between w-full px-4 py-4 bg-white shadow-md md:px-10 lg:px-20">
+  <div>
+    <img class="h-10 w-[184px]" src="./images/Logo.png" alt="Portfolio Logo">
+  </div>
+  <ul class="flex items-center gap-8">
+    <li><a href="#" class="hover:underline hover:text-[#5E3BEE] transition-colors">Home</a></li>
+    <li><a href="#" class="hover:underline hover:text-[#5E3BEE] transition-colors">Portfolio</a></li>
+    <li><a href="#" class="hover:underline hover:text-[#5E3BEE] transition-colors">About Me</a></li>
+    <li><a href="#" class="hover:underline hover:text-[#5E3BEE] transition-colors">Testimonials</a></li>
+  </ul>
+  <a class="rounded-md border-2 border-[#5E3BEE] px-6 py-2 hover:bg-[#5E3BEE] hover:text-white transition" href="#">Contact Me</a>
+</nav>
+
+  <!-- Banner Section -->
+
+  <section class="flex justify-between w-full px-6 py-12 m-auto bg-[#F5FCFF]">
+      <div class="py-12 px-15">
+        <h2 class="text-xl font-semibold text-[#282938]">Hey, I am John</h2>
+        <h1 class="text-4xl lg:text-6xl font-bold text-[#282938] mt-2">
+           I create <span class="text-[#005CFF]">product design</span> and brand experience
+        </h1>
+
+        <button class="mt-6 px-6 py-3 bg-[#5E3BEE] text-white font-semibold rounded-lg hover:bg-[#003D99] transition">Get In Touch</button>
+      </div>
+
+        <div>
+        <img class="w-[800px]" src="./images/banner.png" alt="Banner image">
+        </div>
+  </section>
+
+<!-- My Expertise -->
+  <section class="px-6 py-12">
+    <div class="px-7 py-7">
+      <h3 class="font-semibold text-[#282938]">My Skills</h3>
+      <h1 class="text-[32px] text-[#282938] font-bold">My Expertise</h1>
+    </div>
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-4">
+      <div class="bg-[#F5FCFF] p-7 rounded-md shadow-sm hover:shadow-md transition">
+        <img class="w-20 h-20 p-3 mb-8 bg-white rounded-md" src="./images/icons/product-chain 1.png" alt="">
+        <h4 class="text-[#282938] text-[16px] font-bold mb-5">Strategy & Direction</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+      </div>
+      <div class="bg-[#F5FCFF] p-7 rounded-md shadow-sm hover:shadow-md transition">
+        <img class="w-20 h-20 p-3 mb-8 bg-white rounded-md" src="./images/icons/tag 1.png" alt="">
+        <h4 class="text-[#282938] text-[16px] font-bold mb-5">Branding & Logo</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+      </div>
+      <div class="bg-[#F5FCFF] p-7 rounded-md shadow-sm hover:shadow-md transition">
+        <img class="w-20 h-20 p-3 mb-8 bg-white rounded-md" src="./images/icons/feather-pen 1.png" alt="">
+        <h4 class="text-[#282938] text-[16px] font-bold mb-5">UI & UX Design</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+      </div>
+      <div class="bg-[#F5FCFF] p-7 rounded-md shadow-sm hover:shadow-md transition">
+        <img class="w-20 h-20 p-3 mb-8 bg-white rounded-md" src="./images/icons/feather-pen 1-1.png" alt="">
+        <h4 class="text-[#282938] text-[16px] font-bold mb-5">Web Development</h4>
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- About Section -->
+  <section class="flex flex-col items-center justify-between gap-10 px-6 py-12 lg:flex-row lg:px-20">
+    <div class="w-full lg:w-1/2">
+      <img src="./images/about-me.png" alt="About Me">
+    </div>
+    <div class="w-full lg:w-1/2">
+      <h3 class="font-semibold text-2xl text-[#282938] mb-[10px]">About</h3>
+      <h1 class="font-bold text-[#282938] text-[32px] mb-8">About Me</h1>
+      <p class="font-normal text-[#1C1E53] text-[18px] mb-9">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce varius faucibus massa sollicitudin amet augue. Nibh metus a semper purus mauris duis.</p>
+      <p class="font-normal text-[#1C1E53] text-[18px]">Sit turpis pretium eget maecenas. Vestibulum dolor mattis consectetur eget commodo vitae. Amet pellentesque sit pulvinar lorem mi a, euismod risus r.</p>
+    </div>
+  </section>
+
+  <!-- Portfolio Section -->
+  <section class="px-6 py-12 lg:px-20">
+    <div class="mb-10">
+      <h3 class="text-[#282938] font-semibold">Recent Projects</h3>
+      <div class="flex flex-col mt-5 sm:flex-row sm:justify-between sm:items-center">
+        <h1 class="text-[#282938] text-[32px] font-bold">My Portfolio</h1>
+        <button class="flex bg-[#E62872] rounded-md justify-center items-center py-3 px-4 mt-4 sm:mt-0 hover:opacity-90 transition">
+          <img class="w-5 h-5 mr-2" src="./images/icons/Social icon.png" alt="">
+          <span class="text-sm font-normal text-white">Visit My Dribbble</span>
+        </button>
+      </div>
+    </div>
+
+    <div class="grid grid-cols-1 gap-6 sm:grid-cols-2 lg:grid-cols-3">
+      <div class="px-5 py-5 transition bg-white rounded-md shadow-md hover:shadow-xl">
+        <img src="./images/Placeholder/Image.png" alt="">
+        <h1 class="text-[#282938] font-bold text-2xl mt-5">Ahuse</h1>
+        <p class="text-[#1C1E53] text-[18px] mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        <a href="#" class="flex items-center gap-2 font-bold text-[#5E3BEE] hover:underline">
+          <span>View In Dribbble</span>
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+      </div>
+
+      <div class="px-5 py-5 transition bg-white rounded-md shadow-md hover:shadow-xl">
+        <img src="./images/Placeholder/Image.png" alt="">
+        <h1 class="text-[#282938] font-bold text-2xl mt-5">App Dashboard</h1>
+        <p class="text-[#1C1E53] text-[18px] mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        <a href="#" class="flex items-center gap-2 font-bold text-[#5E3BEE] hover:underline">
+          <span>View In Dribbble</span>
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+      </div>
+
+      <div class="px-5 py-5 transition bg-white rounded-md shadow-md hover:shadow-xl">
+        <img src="./images/Placeholder/Image.png" alt="">
+        <h1 class="text-[#282938] font-bold text-2xl mt-5">Easy Rent</h1>
+        <p class="text-[#1C1E53] text-[18px] mt-5 mb-5">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros.</p>
+        <a href="#" class="flex items-center gap-2 font-bold text-[#5E3BEE] hover:underline">
+          <span>View In Dribbble</span>
+          <svg class="w-5 h-5" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+            <path d="M18 13v6a2 2 0 01-2 2H5a2 2 0 01-2-2V8a2 2 0 012-2h6"></path>
+            <polyline points="15 3 21 3 21 9"></polyline>
+            <line x1="10" y1="14" x2="21" y2="3"></line>
+          </svg>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Testimonials Section -->
+  <section class="px-6 py-16 lg:px-20 bg-[#F5FCFF]">
+    <h3 class="font-semibold text-[#282938] mb-8">Clients Feedback</h3>
+    <h2 class="text-2xl font-semibold text-[#282938] mb-8">Customer testimonials</h2>
+
+    <div class="grid grid-cols-1 gap-6 md:grid-cols-2 lg:grid-cols-3">
+      <!-- Testimonial Card -->
+      <div class="p-6 transition bg-white rounded-md shadow hover:shadow-md">
+        <div class="flex mb-4 text-[#006B6A] text-[25px]">★★★★★</div>
+        <p class="text-sm text-[#1C1E53] mb-6">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+        </p>
+        <div class="flex items-center gap-3">
+          <img src="./images/Avatar/Avatar Image.png" class="w-10 h-10 rounded-full" alt="Client">
+          <div>
+            <h4 class="font-semibold text-[#282938]">Dianne Russell</h4>
+            <p class="text-xs text-gray-500">Starbucks</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial Card -->
+      <div class="p-6 transition bg-white rounded-md shadow hover:shadow-md">
+        <div class="flex mb-4 text-[#006B6A] text-[25px]">★★★★★</div>
+        <p class="text-sm text-[#1C1E53] mb-6">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+        </p>
+        <div class="flex items-center gap-3">
+          <img src="./images/Avatar/Avatar Image-1.png" class="w-10 h-10 rounded-full" alt="Client">
+          <div>
+            <h4 class="font-semibold text-[#282938]">Kristin Watson</h4>
+            <p class="text-xs text-gray-500">Louis Vuitton</p>
+          </div>
+        </div>
+      </div>
+
+      <!-- Testimonial Card -->
+      <div class="p-6 transition bg-white rounded-md shadow hover:shadow-md">
+        <div class="flex mb-4 text-[#006B6A] text-[25px]">★★★★★</div>
+        <p class="text-sm text-[#1C1E53] mb-6">
+        "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse varius enim in eros elementum tristique. Duis cursus, mi quis viverra.
+        </p>
+        <div class="flex items-center gap-3">
+          <img src="./images/Avatar/Avatar Image-1.png" class="w-10 h-10 rounded-full" alt="Client">
+          <div>
+            <h4 class="font-semibold text-[#282938]">Kathryn Murphy</h4>
+            <p class="text-xs text-gray-500">McDonald’s</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact Form Section -->
+<section class="px-6 py-16 mt-10 md:px-10 lg:px-20">
+  <div class="max-w-3xl mx-auto">
+    <!-- Title -->
+    <div class="mb-10 text-center">
+      <h5 class="text-sm font-semibold mb-3 text-[#5E3BEE]">Get In Touch</h5>
+      <h2 class="mb-3 text-3xl font-bold md:text-5xl">Contact me</h2>
+      <p class="text-sm text-gray-500 md:text-base">
+        Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+      </p>
+    </div>
+    <form class="space-y-6">
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div>
+          <label class="block mb-1 text-sm font-medium text-gray-700">First name</label>
+          <input
+            type="text"
+            class="w-full border-2 border-[#5E3BEE] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#5E3BEE]"
+          />
+        </div>
+        <div>
+          <label class="block mb-1 text-sm font-medium text-gray-700">Last name</label>
+          <input
+            type="text"
+            class="w-full border-2 border-[#5E3BEE] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#5E3BEE]"
+          />
+        </div>
+      </div>
+      <div class="grid grid-cols-1 gap-6 md:grid-cols-2">
+        <div>
+          <label class="block mb-1 text-sm font-medium text-gray-700">Email</label>
+          <input
+            type="email"
+            class="w-full border-2 border-[#5E3BEE] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#5E3BEE]"
+          />
+        </div>
+        <div>
+          <label class="block mb-1 text-sm font-medium text-gray-700">Phone number</label>
+          <input
+            type="tel"
+            class="w-full border-2 border-[#5E3BEE] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#5E3BEE]"
+          />
+        </div>
+      </div>
+      <div>
+        <label class="block mb-1 text-sm font-medium text-gray-700">Choose a topic</label>
+        <select
+          class="w-full border-2 border-[#5E3BEE] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#5E3BEE]"
+        >
+          <option class="text-gray-500">Select one...</option>
+          <option>Team Work</option>
+          <option>Contribute</option>
+          <option>Collaboration</option>
+          <option>Support</option>
+        </select>
+      </div>
+      <div>
+        <label class="block mb-1 text-sm font-medium text-gray-700">Message</label>
+        <textarea
+          rows="4"
+          class="w-full border-2 border-[#5E3BEE] rounded-lg p-3 focus:outline-none focus:ring-2 focus:ring-[#5E3BEE]"
+          placeholder="Type your message..."
+        ></textarea>
+      </div>
+      <div class="flex items-center gap-3">
+        <input
+          type="checkbox"
+          id="terms"
+          class="h-4 w-4 text-[#5E3BEE] border-gray-300 rounded focus:ring-[#5E3BEE]"
+        />
+        <label for="terms" class="text-sm text-gray-700">I accept the terms</label>
+      </div>
+      <div class="flex justify-center">
+        <button
+          type="submit"
+          class="px-6 py-3 bg-[#5E3BEE] text-white font-semibold rounded-md border-2 border-[#5E3BEE] transition hover:bg-white hover:text-[#5E3BEE]"
+        >
+          Submit
+        </button>
+      </div>
+    </form>
+  </div>
+</section>
+
+
+  <!-- Footer -->
+  <footer class="px-6 py-8 lg:px-20 bg-[#F5FCFF]">
+    <div class="flex flex-col items-center justify-between gap-4 md:flex-row">
+      <img class="h-10 w-[184px]" src="./images/Logo.png" alt="Logo">
+      <ul class="flex gap-6 text-sm text-gray-700">
+        <li><a href="#">Home</a></li>
+        <li><a href="#">Portfolio</a></li>
+        <li><a href="#">About Me</a></li>
+        <li><a href="#">Testimonials</a></li>
+      </ul>
+      <div class="flex gap-4">
+        <a href="#"><i class="fab fa-facebook"></i></a>
+        <a href="#"><i class="fab fa-twitter"></i></a>
+        <a href="#"><i class="fab fa-instagram"></i></a>
+      </div>
+    </div>
+    <div class="flex flex-col items-center justify-between mt-6 text-xs text-gray-500 md:flex-row">
+      <p>Made with ❤️ by Rumain Islam</p>
+      <div class="flex gap-4">
+        <a href="#">Privacy Policy</a>
+        <a href="#">Terms of Service</a>
+        <a href="#">Cookies Settings</a>
+      </div>
+    </div>
+  </footer>
+
+</body>
+</html>
+
+
+
