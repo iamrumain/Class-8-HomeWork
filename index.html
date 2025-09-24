@@ -15,32 +15,35 @@
   <div>
     <img class="h-10 w-[184px]" src="./images/Logo.png" alt="Portfolio Logo">
   </div>
-  <ul class="flex items-center gap-8">
+  
+  <!-- Desktop Menu -->
+  <ul class="flex items-center hidden gap-8 md:flex">
     <li><a href="#" class="hover:underline hover:text-[#5E3BEE] transition-colors">Home</a></li>
     <li><a href="#" class="hover:underline hover:text-[#5E3BEE] transition-colors">Portfolio</a></li>
     <li><a href="#" class="hover:underline hover:text-[#5E3BEE] transition-colors">About Me</a></li>
     <li><a href="#" class="hover:underline hover:text-[#5E3BEE] transition-colors">Testimonials</a></li>
   </ul>
+
   <a class="rounded-md border-2 border-[#5E3BEE] px-6 py-2 hover:bg-[#5E3BEE] hover:text-white transition" href="#">Contact Me</a>
 </nav>
 
-  <!-- Banner Section -->
+<!-- Banner Section -->
+<section class="flex flex-col md:flex-row justify-between w-full px-6 py-12 m-auto bg-[#F5FCFF]">
+  <div class="px-4 py-12 text-center md:px-15 md:text-left">
+    <h2 class="text-xl font-semibold text-[#282938]">Hey, I am John</h2>
+    <h1 class="text-3xl md:text-4xl lg:text-6xl font-bold text-[#282938] mt-2">
+      I create <span class="text-[#005CFF]">product design</span> and brand experience
+    </h1>
 
-  <section class="flex justify-between w-full px-6 py-12 m-auto bg-[#F5FCFF]">
-      <div class="py-12 px-15">
-        <h2 class="text-xl font-semibold text-[#282938]">Hey, I am John</h2>
-        <h1 class="text-4xl lg:text-6xl font-bold text-[#282938] mt-2">
-           I create <span class="text-[#005CFF]">product design</span> and brand experience
-        </h1>
+    <button class="mt-7 px-7 py-4 bg-[#5E3BEE] text-white font-light rounded-sm hover:bg-[#003D99] transition">
+      Get In Touch
+    </button>
+  </div>
 
-        <button class="mt-7 px-7 py-4 bg-[#5E3BEE] text-white font-light rounded-sm hover:bg-[#003D99] transition">Get In Touch</button>
-      </div>
-
-        <div>
-        <img class="w-[800px]" src="./images/banner.png" alt="Banner image">
-        </div>
-  </section>
-
+  <div class="mt-8 md:mt-0">
+    <img class="w-full max-w-[500px] md:max-w-[800px]" src="./images/banner.png" alt="Banner image">
+  </div>
+</section>
 <!-- My Expertise -->
   <section class="px-6 py-12">
     <div class="px-7 py-7">
